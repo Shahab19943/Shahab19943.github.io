@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahab Ul Hassan | Portfolio</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0077b6;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #023e8a;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #0096c7;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #0077b6;
+            margin-bottom: 20px;
+        }
+        .projects, .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project, .skill {
+            background-color: #fff;
+            padding: 20px;
+            flex: 1 1 45%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #023e8a;
+            color: #fff;
+        }
+        .resume-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0077b6;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .resume-button:hover {
+            background-color: #0096c7;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #0077b6;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0096c7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Shahab Ul Hassan</h1>
+    <p>PhD Student | AI & Data Science Enthusiast</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Shahab Ul Hassan, a PhD student in Information Technology with a passion for Artificial Intelligence, Machine Learning, and Explainable AI. I enjoy solving complex problems and creating practical solutions that bridge technology and healthcare.</p>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <p><strong>PhD in Information Technology</strong> – University Name, 2023–Present</p>
+    <p><strong>MSc in Computer Science</strong> – University Name, 2021–2023</p>
+    <p><strong>BSc in IT / Computer Science</strong> – University Name, 2017–2021</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Lung Cancer Detection (AI Project)</h3>
+            <p>Developed a deep learning model for CT scan image classification with explainable AI visualizations using LIME.</p>
+        </div>
+        <div class="project">
+            <h3>Brain MRI Analysis</h3>
+            <p>Implemented a CNN-based system for brain MRI classification and visual explanation of predictions for clinical use.</p>
+        </div>
+        <!-- Add more projects here -->
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill"><strong>Programming:</strong> Python, MATLAB, R</div>
+        <div class="skill"><strong>AI/ML:</strong> Deep Learning, XAI, CNNs, Data Analysis</div>
+        <div class="skill"><strong>Tools:</strong> Git, GitHub, TensorFlow, Keras</div>
+        <div class="skill"><strong>Soft Skills:</strong> Research, Problem-Solving, Communication</div>
+    </div>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" class="resume-button" target="_blank">Download Resume</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Shahab Ul Hassan | <a href="https://www.linkedin.com" style="color:#fff;">LinkedIn</a> | <a href="https://github.com" style="color:#fff;">GitHub</a></p>
+</footer>
+
+</body>
+</html>
